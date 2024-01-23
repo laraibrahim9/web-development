@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial*-scale=1.0" />
+    <title>
+      CedarTours
+    </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="javascript.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>C</span>edarTours</a>
+
+    <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#visits">visits</a> 
+    <a href="#services">services</a>
+    <a href="#gallery">gallery</a>
+    <a href="#review">reviews</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search" id="search-btn"></i>
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...">
+      <label for="search-bar"  class="fas fa-search"></label>
+    </form>
+ 
+</header>
+<div class="login-form-container">
+  <i class="fas fa-time" id="form-close"></i>
+  <form action="">
+      <h3>login</h3>
+      <input type="email" class="box" placeholder="enter your email">
+      <input type="password" class="box" placeholder="enter your password">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember">remember me</label>
+      <p>forget password? <a href="#">click here</a></p>
+      <p>don't have and account? <a href="#">register now</a></p>
+  </form>
+      
+</div>
+<section class="home" id="home">
+  <div class="content">
+    
+    <h3>ADVENTURE IS KNOCKING</h3>
+    <p>Go wherever the road wants to take you</p>
+    <a href="#visits" class="btn"> discover more </a>
+  </div>
+  
+  <div class="controls">
+   <span class="vid-btn active" data-src="video1.mp4"></span>
+   </div>
+  
+  <div class="video-container">
+  <video src="video1.mp4" id="video-slider"loop autoplay muted></video>
+  </div>
+</section>
+<section class="visits" id="visits">
+  <h1 class="heading">
+     <span>v</span>
+     <span>i</span>
+     <span>s</span>
+     <span>i</span>
+     <span>t</span>
+     <span>s</span>
+</h1>
+
+<div class="box-container">
+  <div class="box">
+    <div class="row">
+      <div class="column">
+      <img src="pic1.jpeg" alt=""></div>
+      <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Beirut</h3>
+          <p>Beirut is one of the best, most vibrant, most exciting 
+            cities in the Middle East. Because it's much more liberal 
+            than other Middle Eastern cities, there is a huge party 
+            scene, from the wild beach clubs to the roof-retracting 
+            nightclubs. But beyond the nightlife, you have centuries 
+            of history and different cultures coming together.</p>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">Visit Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="box-container">
+    <div class="box">
+      <div class="row">
+        <div class="column">
+       <img src="pic2.jpeg" alt=""></div>
+       <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i> Byblos </h3>
+          <p>Byblos — known as Jbeil in Arabic — is easily one of 
+          the most beautiful places to visit in Lebanon. This 
+          seaside village north of Beirut looks like it could be 
+          a coastal town in Montenegro with its teal waters, palm 
+          trees, sandstone old town, and mountains rising in the 
+         background.</p>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+         </div>
+          <a href="#" class="btn"> visit now </a></div> 
+       </div>
+     </div>
+    </div>
+</div>
+
+
+
+
+
+  <div class="box-container">
+     <div class="box">
+       <div class="row">
+          <div class="column">
+         <img src="pic3.jpeg" alt=""></div>
+         <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i> Tyre </h3>
+           <p>Tyre, also known as Sour (pronounced soor), was one of 
+           the most important cities on the Mediterranean. Today, 
+           this city in southern Lebanon is home to fine Roman 
+           ruins perched up against the sea, a pleasant and 
+           walkable small town, incredibly friendly people, and 
+           fresh flowers bursting out in every direction.</p>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+           <a href="#" class="btn"> visit now </a>  
+         </div>
+       </div> 
+     </div>
+  </div>
+
+  <div class="box-container">
+     <div class="box">
+        <div class="row">
+          <div class="column">
+         <img src="pic4.jpeg" alt=""></div>
+         <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i> Harrisa </h3>
+           <p>Harissa is home to one of the most famous sights in 
+           Lebanon: the Our Lady of Lebanon statue, perched on a 
+           mountaintop, seeming to look over the nation. Come to 
+           Harissa and you, too, can enjoy this Lebanese 
+           pilgrimage site — and spectacular views at 650 meters 
+           above sea level.</p>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+           <a href="#" class="btn"> visit now </a>  
+         </div>
+       </div>
+      </div>
+  </div>
+
+  <div class="box-container">
+     <div class="box">
+        <div class="row">
+          <div class="column">
+         <img src="pic5.jpeg" alt=""></div>
+         <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i> Baalbek </h3>
+           <p>Baalbek is the ruins of the city once known as 
+           Heliopolis, the City of the Sun. The four temples here 
+           dedicated to Jupiter, Mercury, Venus, and Bacchus, 
+           after Roman gods — are some of the largest remaining 
+           temples of the Roman Empire. You can also witness the
+           two of the largest stone blocks in antiquity: the Stone 
+           of thePregnant Woman, clocking in at 1,000 tons, and a 
+           block simply known as the megalith, clocking in at 
+           1,650 ton</p>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+           <a href="#" class="btn"> visit now </a>  
+         </div>
+       </div>
+      </div>
+ </div>
+
+  <div class="box-container">
+     <div class="box">
+        <div class="row">
+          <div class="column">
+         <img src="pic7.jpeg" alt=""></div>
+         <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i> Jeita </h3>
+           <p>Jeita Grotto is just outside Beirut, making it a super-
+            easy afternoon trip (and a cool relief from a hot 
+            day!). This grotto is a system of two limestone caves. 
+            They consist of two sets of caves: the lower caves and 
+            the upper caves.</p>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+           <a href="#" class="btn"> visit now </a>  
+         </div>
+       </div>
+     </div>
+  </div>
+
+  <div class="box-container">
+     <div class="box">
+        <div class="row">
+          <div class="column">
+         <img src="pic6.jpeg" alt=""></div>
+         <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i> Bcharré </h3>
+           <p>Bcharré is famed for being the home of Lebanese 
+            American poet, writer and artist Kahlil Gibran. The 
+            Gibran Museum was once a shelter for hermetic monks, 
+            carved into life from the rocks; today, it hosts 
+            Gibran's tomb and a collection of his writings and 
+            drawings.</p>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+           <a href="#" class="btn"> visit now </a>  
+         </div>
+       </div>
+      </div>
+  </div>
+
+  <div class="box-container">
+     <div class="box">
+        <div class="row">
+          <div class="column">
+         <img src="pic9.jpeg" alt=""></div>
+         <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i> Sidon </h3>
+           <p>Sidon, also known as Saida, is a port city to the 
+            south of Beirut. Though it has a storied history, Sidon 
+            is one of the lower-key, calmer cities to visit in 
+            Lebanon, and one of the easier side trips from Beirut.</p>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+           <a href="#" class="btn"> visit now </a>  
+         </div>
+       </div>
+      </div>
+  </div>
+</section>
+
+
+<section class="servives" id="services">
+
+  <section class="services" id="services">
+    <h1 class="heading">
+       <span>s</span>
+       <span>e</span>
+       <span>r</span>
+       <span>v</span>
+       <span>i</span>
+       <span>c</span>
+       <span>e</span>
+       <span>s</span>
+  </h1>
+  
+  <div class="box-container">
+    
+    <div class="box">
+       <i class="fas fa-hotel"></i>
+       <h3>affordable hotels</h3>
+       <p>Let us make your stay the most memorable - Every time.</p>
+    </div>
+    <div class="box">
+       <i class="fas fa-utensils"></i>
+       <h3>food and drinks </h3>
+       <p>Food is calling, and you must answer!</p>
+    </div>
+    <div class="box">
+       <i class="fas fa-hiking"></i>
+       <h3>adventures </h3>
+       <p>Adventure is the bridge between dreams and reality. With every step, 
+           we move closer to our ambitions, passions, and goals.</p>
+    </div>
+    
+</section>
+<section class="gallery" id="gallery">
+
+  <h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+  </h1>
+  
+  <div class="box-container">
+    
+    <div class="box">
+      <img src="img1.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Jeita Grotto Road - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img2.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Jeita Grotto - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img3.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Jounieh - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img4.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Baalbek - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img5.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Raouche Rock - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img6.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Temple of Neptune - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img7.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Beirut Streets Saifi village - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img8.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Zaintunay Bay - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img9.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Batroun - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img10.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Yahchouch Valley - Waterfalls Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img11.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>Baakline Wterfalls - Lebanon</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img12.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Farayya - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img13.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Saydet el Hosn -Lady of the Fortress - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img14.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Kafrmatta ,Mont-Liban - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img15.jpeg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Jezzine Waterfall - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img16.jpg" alt="">
+      <div class=" content">
+        <h3>amazing places</h3>
+        <p>"Chouwen River - Lebanon"</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+  </div> 
+</section> 
+<section class= "review" id= "review">
+  <h1 class="heading">
+  <span>r</span>
+  <span>e</span>
+  <span>v</span>
+  <span>i</span>
+  <span>e</span>
+  <span>w</span>
+  </h1>
+
+<section class="review">
+  <div class="swiper mySwiper review-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="https://images.squarespace-cdn.com/content/v1/58044bcc29687f23906e68de/1bad85b9-af24-4dc8-9da3-587f927429f3/29293879-0f7b-4f3f-89f6-9567de7a7ba5.jpg?format=1000w" alt="Review Image">
+          <h3>Cedars, Bsharre & Kozhaya</h3>
+          <p>We didn't know what to expect, we were looking for tours in the region and we found cedar tours to be the perfect match.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="https://images.squarespace-cdn.com/content/v1/58044bcc29687f23906e68de/820011b6-8130-41d6-b54b-10442ce4babc/WhatsApp+Image+2022-08-04+at+1.17.36+AM.jpeg?format=1000w" alt="Review Image">
+          <h3>Rami and Omar</h3>
+          <p>We loved every minute of the tour. Thank you cedar tours.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+       
+
+      <div class="swiper-slide">
+        <div class="box">
+            <img src="https://images.squarespace-cdn.com/content/v1/58044bcc29687f23906e68de/9913d36c-04c0-4875-9a3a-320485f6ed3d/75aeae3f-239d-4e9a-af4b-bbe4f358119e.jpg?format=1000w">
+            <h3>Drashia and his friends from Greece, India and Morocco </h3>
+            <p> From the bottom of my heart, I thank you so much and recommending 'Cedar Tours' to all!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="https://images.squarespace-cdn.com/content/v1/58044bcc29687f23906e68de/84a3344e-fb1e-4c59-959e-5cc64d78e988/WhatsApp+Image+2022-07-18+at+4.39.03+AM.jpeg?format=1000w">
+          <h3>Miriam and Jihad </h3>
+          <p> Lebanon is an amazing destinaron. If you want to have a wonderful trip do not hesisate and contact cedar tours! </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+          <section class="footer">
+            <div class="box-container">
+            <div class="box">
+            <h3>about us</h3>
+            <p>We love Lebanon inspite of all its challenges, and we both choose to be here although we have the opportunity to leave any time we choose. However, simply being in Lebanon is not good enough if we don't contribute! </p>
+            </div>
+              <div class="box">
+              <h3>quick links</h3>
+              <a href="#home">home</a>
+              <a href="#visits">visit</a>
+              <a href="#services">services</a>
+              <a href="#gallery">gallery</a>
+              <a href="#review">review</a>
+              </div>
+              <div class="box">
+              <h3>follow us</h3>
+              <a href="#">facebook</a>
+              <a href="#">instagram</a>
+              <a href="#">twitter</a>
+              <a href="#">linkedin</a>
+              </div>
+            </div>
+  </body>
+</html>
